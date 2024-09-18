@@ -1,0 +1,6 @@
+text = (input("Введите ваши данные"))
+result = text.split()
+length = len(result)
+length_max = max(length)
+length_min = min(length)
+print(length_max, length_min)

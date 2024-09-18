@@ -1,0 +1,8 @@
+number = input("Введите ваши числа через запятую")
+result = number.replace(" ", "")
+result1 = result.replace(",", "")
+list = list(result1)
+tuple = tuple(result1)
+type_list = type(list)
+type_tuple = type(tuple)
+print(list, type_list, type_tuple, tuple)
