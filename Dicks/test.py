@@ -1,0 +1,6 @@
+unput = open("D:\Prog\Dicks\example.txt", "r")
+file1 = unput.read()
+ler = file1.split()
+le = len(ler)
+unput.close()
+print(le)
